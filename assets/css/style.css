@@ -33,7 +33,10 @@ a{
     color: #555;
     cursor: pointer;
     text-decoration:none;
-    transition: 4s;
+
+}
+a:hover {
+    color: yellow;
 }
 .container {
     max-width: 1300px;
@@ -55,12 +58,13 @@ a{
 .col-2 {
     position: relative;
     flex-basis: 50%;
-    min-width: 300px;
+    width: 500px;
+    overflow: hidden;
+    height: 400px;
 }
 .col-2 img {
     padding: 0;
-    width: 1000px;
-    margin-top: -10%;
+    width: 100%;
     border: 2px solid black;
     border-radius: 50%;
 }
@@ -124,6 +128,12 @@ h4 {
 .col-3 img {
     width: 300px;
     box-shadow: 20px 20px 20px 20px ;
+}
+h4 {
+    color: white;
+}
+.prix {
+    color:green;
 }
 h2 {
     font-size: 22px;
