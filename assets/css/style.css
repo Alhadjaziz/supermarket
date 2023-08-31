@@ -194,7 +194,45 @@ label {
     background-color: white;
     color: black;
 }
+.footer {
+    text-align: center;
+    background: #555;
+    padding: 40px;
+    border: black 3px solid;
+    border-radius: 3px solid;
+}
+.foote h2 {
+    font-size: 22px;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+}
+.footer p {
+    font-size: 22px;
+    text-align: right;
+    padding: 10px;
+}
 
+.footer .sci {
+    position: absolute;
+    top: 50%;
+    right: 30px;
+    transform: translateY(-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 
+    
+}
+.footer .sci li {
+    list-style: none;
+}
+.footer .sci li a
+{
+    display: inline-flex;
+    filter: invert(1);
+
+}
 
 
